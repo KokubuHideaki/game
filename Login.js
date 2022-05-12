@@ -1,0 +1,1 @@
+const textbox = document.getElementById("message")

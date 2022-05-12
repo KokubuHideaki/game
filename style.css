@@ -1,0 +1,32 @@
+body {
+    display: block;
+    margin: auto;
+    background-color: rgb(40, 43, 49);
+}
+
+.password {
+    position: relative;
+    }
+  
+  .password form{/*aタグを画像の真ん中に*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    /*以下装飾*/
+    text-align: center;
+    margin:0;/*余計な隙間を除く*/
+    font-size: 20px;/*文字サイズ*/
+    padding: 7px;/*文字と線の間の余白*/
+  }
+  
+  .password form :hover{/*カーソルを当てたとき*/
+    background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+    }
+  
+  .password img {
+    width: 100%;
+    }
+    
