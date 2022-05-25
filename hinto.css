@@ -1,0 +1,32 @@
+.hinto_box{
+    margin:2em 0;
+    padding: 0;
+}
+.hinto_box label{
+    padding: 15px;
+    font-weight: bold;
+    border: solid 2px white
+}
+.hinto_box input{
+    display: none;
+}
+.hinto_box .hinto_show{
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.hinto_box input:checked ~ .hinto_show{
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+.hinto_show img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+
+}
